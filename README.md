@@ -1,6 +1,4 @@
-Certainly! Here’s a sample README for your whack-a-mole game project. You can adjust the details according to your preferences and needs.
 
----
 
 # Whack-a-Mole Man Rush Game
 
@@ -20,7 +18,7 @@ Welcome to the Whack-a-Mole game! This is a simple browser-based game where the 
 - A modern web browser (e.g., Chrome, Firefox, Edge)
 
 ### Play
-
+Naviate to [https://ad-archer.github.io/Wack-a-mole-man-rush/]
 
 ### Installation
 
@@ -48,9 +46,6 @@ Welcome to the Whack-a-Mole game! This is a simple browser-based game where the 
 - **styles.css**: The CSS for styling the game.
 - **script.js**: The JavaScript logic for game functionality.
 
-## Example
-
-![Whack-a-Mole Game Screenshot](screenshot.png)  <!-- Add a screenshot of your game here -->
 
 ## Contributing
 
@@ -60,10 +55,3 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- Special thanks to [Mole Image Source](https://mario.wiki.gallery/images/thumb/5/56/Monty_Mole_SMP.png) for providing the mole image used in the game.
-
----
-
-Feel free to adjust the repository URL, license information, and any other specifics to match your project's details.
