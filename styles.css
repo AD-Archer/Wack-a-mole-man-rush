@@ -1,0 +1,60 @@
+/* Ensure the game takes up a good portion of the screen */
+#game {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+    grid-gap: 10px;
+    width: 80vw;  /* Grid takes up 80% of the viewport width */
+    height: 80vh; /* Grid takes up 80% of the viewport height */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Responsive grid items */
+.grid-item {
+    background-color: lightgrey;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Mole styling */
+.mole {
+    background-color: brown;
+    background-image: url("https://mario.wiki.gallery/images/thumb/5/56/Monty_Mole_SMP.png/280px-Monty_Mole_SMP.png");
+    background-size: cover; /* Use 'cover' to fill the square */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+}
+
+
+/* Body: Center game and scorebox on screen */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+/* Styling the scorebox */
+#scorebox {
+    margin-top: 20px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+button{
+    padding: 20px;
+    background-color: brown;
+    border-radius: 20px;
+    border-color: aqua;
+}
